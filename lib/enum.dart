@@ -1,0 +1,1 @@
+enum POS { NOUN, VERB, ADJ, ADV, ABBR, UNKNOWN }
