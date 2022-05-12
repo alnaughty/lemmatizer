@@ -131,13 +131,13 @@ class Lemmatizer {
   }
 
   Future<void> loadWordnetFiles(POS pos, list, exc) async {
-    var fileList = await rootBundle.loadString("assets/" + list);
-    var listLines = fileList.split("\n");
+    // var fileList = await rootBundle.loadString("assets/" + list);
+    // var listLines = fileList.split("\n");
 
-    for (var line in listLines) {
-      var w = line.split(" ")[0];
-      wordlists[pos][w] = w;
-    }
+    // for (var line in listLines) {
+    //   var w = line.split(" ")[0];
+    //   wordlists[pos][w] = w;
+    // }
 
     var fileExc = await rootBundle.loadString("assets/" + exc);
     var listExc = fileExc.split("\n");
