@@ -22,6 +22,7 @@ dev_dependencies:
 flutter:
   # To add assets to your package, add an assets section, like this:
   assets:
+    - assets/
     - assets/index_noun.txt
     - assets/index_adj.txt
     - assets/index_verb.txt
