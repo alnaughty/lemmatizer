@@ -23,14 +23,14 @@ flutter:
   # To add assets to your package, add an assets section, like this:
   assets:
     - assets/
-    - assets/index_noun.txt
-    - assets/index_adj.txt
-    - assets/index_verb.txt
-    - assets/index_adv.txt
-    - assets/noun_exc.txt
-    - assets/adj_exc.txt
-    - assets/adv_exc.txt
-    - assets/verb_exc.txt
+    # - assets/index_noun.txt
+    # - assets/index_adj.txt
+    # - assets/index_verb.txt
+    # - assets/index_adv.txt
+    # - assets/noun_exc.txt
+    # - assets/adj_exc.txt
+    # - assets/adv_exc.txt
+    # - assets/verb_exc.txt
   #
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
